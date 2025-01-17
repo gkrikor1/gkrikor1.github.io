@@ -3,12 +3,17 @@ project:
 
 website:
   title: "gkrikor1.github.io"
+  description: "Greg Krikorian Personal Website"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
       - blog.qmd
+    right:
+     - icon: linkedin
+     - href: www.linkedin.com/in/greg-krikorian
+
 
 format:
   html:
